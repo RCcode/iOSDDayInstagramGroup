@@ -1,0 +1,42 @@
+//
+//  _NSObject_InstagramKey.h
+//  InstagramClient2.0
+//
+//  Created by iObitLXF on 12/3/12.
+//  Copyright (c) 2012 Crino. All rights reserved.
+//
+
+/*
+    权限：
+    1、基本：读取用户的所有数据（关注/被关注人，照片等）（默认权限）
+    2、评论：创建和删除用户的评论
+    3、关系：关注或取消关注用户
+    4、喜欢：赞或者取消赞用户的项
+
+ */
+
+//#define INSTAGRAM_APP_ID @"ae01def1e715401f8e8322c610022f2f"
+
+/*  USERS  */
+#define INSTAGRAM_GET_MYUSER_INFO @"https://api.instagram.com/v1/media/popular?client_id=CLIENT-ID"//获取最受欢迎的media
+
+
+//后面加参数?access_token= xxx
+#define INSTAGRAM_GET_MYUSER_INFO @"https://api.instagram.com/v1/users/self"//获取【授权】用户的信息
+#define INSTAGRAM_GET_USER_INFO @"https://api.instagram.com/v1/users/user-id"//获取用户的信息
+#define INSTAGRAM_GET_USER_FEED @"https://api.instagram.com/v1/self/feed"//获取【授权】用户的feed
+#define INSTAGRAM_GET_USER_MEDIA_RECENT @"https://api.instagram.com/v1/users/user-id/media/recent"//获取用户最近发表(自己则将user-id换做self)
+#define INSTAGRAM_GET_USER_MEDIA_LIKED @"https://api.instagram.com/v1/users/self/media/liked"//获取【授权】用户赞的media
+
+//后面加参数?q=jack&access_token= xxx,q为用户名字
+#define INSTAGRAM_GET_USER_SEARCH @"https://api.instagram.com/v1/users/search"//搜索
+
+
+/*  USERS  */
+
+
+
+
+
+
+

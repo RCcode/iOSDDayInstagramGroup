@@ -1,0 +1,14 @@
+关于此Demo
+
+1、简述：
+    此Demo利用Instagram api实现了Instagram 账号登陆验证，用户信息获取，关注列表信息获取，用户Media信息获取，及关注和取消关注功能。
+
+2、条件：
+1）拥有Instagram账号（若无，请注册，并关注一些用户，方便之后测试），自己上传发布几张照片（便于之后测试)。
+2）登陆 http://instagram.com/developer 注册自己的客户端，得到 CLIENT ID 进行Demo里的相应替换。替换地方有：InstagramKey.h 和 .plist文件里的 URL Types
+3）本Demo完成的只是Instagram的部分功能，熟悉后，其他功能都很简单了
+
+3、注：
+1）本Demo只是个人学习所作，有不足之处望大家指点
+2）用到了第三方的代码，在此表达感谢
+3）有问题请联系我（新浪微博@Chili小灰灰、QQ-351831827）
